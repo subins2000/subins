@@ -1,0 +1,5 @@
+AuthName "This folder requires a login" 
+AuthType Basic 
+AuthUserFile ../app/labs/akama/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user

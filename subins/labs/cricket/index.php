@@ -1,0 +1,1 @@
+<script>  app='www.cricwaves.com'; mo="simulation"; nt="1";  tor ="All"; wi ="n"; co ="2"; ad="1"; Width='760px'; Height="460px"; </script><script type="text/javascript" src="//www.cricwaves.com/cricket/widgets/script/scoreWidgets.js"></script>

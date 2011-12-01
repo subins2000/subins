@@ -1,0 +1,24 @@
+<html>
+<head><title>ExtAjax</title>
+<script type="text/javascript" src="//cdn-subins.hp.af.cm/java/jquery.js"></script>
+<script type="text/javascript" src="extajax.js"></script>
+</head>
+<body>
+<div style="position:absolute;top:0px;width:100%;left:0px;right:0px;height:80px;background:#EEE;"><center><h1>ExtAjax Demo</h1></center><span style="position:absolute;right:40px;top:1px;">Created By Subin Siby<br><a href="//gplus.to/subinsiby" style="color:green;"><img style="width:14px;padding-right: 10px;" src="//www.google.com/images/icons/ui/gprofile_button-16.png">Google +</a><br><a href="//fb.com/subinsiby" style="color:green;"><span style="background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yI/x/1dQf_ATK831.png);background-repeat: no-repeat;height:14px;width:14px;display: inline-block;padding-right: 10px;"></span>Facebook</a><br><a href="https://twitter.com/SubinSiby"><span style="background:url(//platform.twitter.com/widgets/images/btn.27237bab4db188ca749164efd38861b0.png);display:inline-block;height:10px;width:13px;padding-right: 10px;"></span>Twitter</a></span></div><br><br><br>
+<script>
+$(document).ready(function(){
+$("#form").submit(function(){
+event.preventDefault();
+$("#form").extajax({target:'#ex'});
+});
+});
+</script>
+<form id="form" action="//search.yahoo.com/search" method="post">
+<h3>Type in text box below to search on Yahoo</h3>
+                <input name='p' type="text" placeholder="Type here to search on Yahoo" value="">
+		<input name="submitmsg" type="submit" value="Search" />
+</form>
+<h2>Search result will be shown below</h2>
+<div id='ex'></div>
+</body>
+</html>

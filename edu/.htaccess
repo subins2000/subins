@@ -1,0 +1,17 @@
+    ErrorDocument 400 /error/HTTP_BAD_REQUEST.html.var
+    ErrorDocument 401 /error/HTTP_UNAUTHORIZED.html.var
+    ErrorDocument 403 '<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style>*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//cdn-subins.hp.af.cm/images/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}</style></head><body><a href="//subins.com/"><img src="//cdn-subins.hp.af.cm/images/logo.png" alt="Google"></a><p><b>404.</b> <ins>That&acute;s an error.</ins></p><p>The requested URL <b><script>document.write(window.location.pathname);</script></b> was not found on this server.  <ins>That&acute;s all we know.</ins></p></body></html>'
+    ErrorDocument 404 '<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width"><title>Error 404 (Not Found)!!1</title><style>*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//cdn-subins.hp.af.cm/images/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}</style></head><body><a href="//subins.com/"><img src="//cdn-subins.hp.af.cm/images/logo.png" alt="Google"></a><p><b>404.</b> <ins>That&acute;s an error.</ins></p><p>The requested URL <b><script>document.write(window.location.pathname);</script></b> was not found on this server.  <ins>That&acute;s all we know.</ins></p></body></html>'
+    ErrorDocument 405 /error/HTTP_METHOD_NOT_ALLOWED.html.var
+    ErrorDocument 408 /error/HTTP_REQUEST_TIME_OUT.html.var
+    ErrorDocument 410 /error/HTTP_GONE.html.var
+    ErrorDocument 411 /error/HTTP_LENGTH_REQUIRED.html.var
+    ErrorDocument 412 /error/HTTP_PRECONDITION_FAILED.html.var
+    ErrorDocument 413 /error/HTTP_REQUEST_ENTITY_TOO_LARGE.html.var
+    ErrorDocument 414 /error/HTTP_REQUEST_URI_TOO_LARGE.html.var
+    ErrorDocument 415 /error/HTTP_UNSUPPORTED_MEDIA_TYPE.html.var
+    ErrorDocument 500 /error/HTTP_INTERNAL_SERVER_ERROR.html.var
+    ErrorDocument 501 /error/HTTP_NOT_IMPLEMENTED.html.var
+    ErrorDocument 502 /error/HTTP_BAD_GATEWAY.html.var
+    ErrorDocument 503 /error/HTTP_SERVICE_UNAVAILABLE.html.var
+    ErrorDocument 506 /error/HTTP_VARIANT_ALSO_VARIES.html.var

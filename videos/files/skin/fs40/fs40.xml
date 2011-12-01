@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<skin version="1.0" name="fsjw25" author="FlashSkins">
+
+	<settings>
+		<setting name="backcolor" value="0x6622BB" />
+		<setting name="frontcolor" value="0xAAAAAA" />
+		<setting name="lightcolor" value="0x000000" />
+		<setting name="screencolor" value="0x333333" />
+	</settings>
+
+	<components>
+		<component name="controlbar">
+			<settings>
+				<setting name="margin" value="10" />
+				<setting name="fontsize" value="11" />
+			</settings>
+
+			<elements>
+				<element name="background" src="controlbar/background.png" />
+				<element name="capLeft" src="controlbar/capLeft.png" />
+				<element name="capRight" src="controlbar/capRight.png" />
+				<element name="shade" src="controlbar/background.png" />
+				<element name="divider" src="controlbar/divider.png" />
+								
+				<element name="blankButton" src="controlbar/blankButton.png" />
+				<element name="blankButtonOver" src="controlbar/blankButton.png" />
+				
+				<element name="playButton" src="controlbar/playButton.png" />
+				
+				<element name="pauseButton" src="controlbar/pauseButton.png" />
+				
+				<element name="timeSliderRail" src="controlbar/timeSliderRail.png" />      							
+				<element name="timeSliderBuffer" src="controlbar/timeSliderBuffer.png" />
+				<element name="timeSliderProgress" src="controlbar/timeSliderProgress.png" />
+				<element name="timeSliderCapLeft" src="controlbar/timeSliderCapLeft.png" />
+				<element name="timeSliderCapRight" src="controlbar/timeSliderCapRight.png" />
+				<element name="timeSliderThumb" src="controlbar/timeSliderThumb.png" />
+				
+				<element name="fullscreenButton" src="controlbar/fullscreenButton.png" />
+				
+				<element name="normalscreenButton" src="controlbar/normalscreenButton.png" />
+				
+				<element name="muteButton" src="controlbar/muteButton.png" />
+				<element name="muteButtonOver" src="controlbar/muteButtonOver.png" />
+				
+				<element name="unmuteButton" src="controlbar/unmuteButton.png" />
+				<element name="unmuteButtonOver" src="controlbar/unmuteButtonOver.png" />
+				
+				<element name="volumeSliderRail" src="controlbar/volumeSliderRail.png" />
+				<element name="volumeSliderBuffer" src="controlbar/volumeSliderBuffer.png" />
+				<element name="volumeSliderProgress" src="controlbar/volumeSliderProgress.png" />
+			</elements>
+		</component>
+		
+		<component name="display">
+			<elements>
+				<element name="background" src="display/background.png" />
+				<element name="playIcon" src="display/playIcon.png" />
+				<element name="muteIcon" src="display/muteIcon.png" />
+				<element name="errorIcon" src="display/errorIcon.png" />
+				<element name="bufferIcon" src="display/bufferIcon.png" />
+			</elements>
+		</component>
+		
+		<component name="dock">
+			<elements>
+				<element name="button" src="dock/button.png" />
+				<element name="buttonOver" src="dock/button.png" />
+			</elements>
+		</component>
+		
+		<component name="playlist">
+			<elements>
+				<element name="item" src="playlist/item.png" />
+				<element name="itemOver" src="playlist/itemOver.png" />
+				<element name="sliderRail" src="playlist/sliderRail.png" />
+				<element name="sliderThumb" src="playlist/sliderThumb.png" />
+			</elements>
+		</component>
+		
+		<component name="hd">
+			<elements>
+				<element name="dockIcon" src="hd/dockIcon.png" />
+				<element name="controlbarIcon" src="hd/controlbarIcon.png" />
+			</elements>
+		</component>
+	</components>
+
+</skin>

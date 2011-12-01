@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>JQuery emoticon plugin</title>
+        <script type="text/javascript" src="jquery.js"></script>
+                <script type="text/javascript" src="jquery.emoticons.js"></script>
+        <script type="text/javascript">
+$(document).ready(function(){
+    $(".posted").emoticons();
+});
+        </script>
+        <style type="text/css" media=screen>
+<!--
+.emoticonimg{
+/*border: 1px solid #000000;*/
+vertical-align:bottom;
+}
+-->
+</style>
+</head>
+    <body>
+        <h1>Usage</h1>
+        <p class="posted">To replace the text of emoticons just make the container of class="posted". Pretty easy, right? :)<p> 
+        <h1>Download</h1>
+        A zip file containing all files can be downloaded from <a href="emoticon.zip">here<a/>.
+        <h1>Examples</h1>
+        <h2 class="posted">Hi there!;)</h2>
+        <div class="posted">
+            I think you are a (M). This content is inside a div.
+        </div>
+        <p>Here are all the emoticons and ways of writing them:<br /> 
+            :-) :) =] =) :-( =( :[ :< ;-) ;) ;] *) :D =D XD BD 8D xD :O =O :-O =-O (6) (A) :'( :'-( :| :o) 8) 8-) (K) :-* (M)<br />
+            They can even be together, no need of whitespaces inbetween: :)(M)
+        </p>
+        <p class="posted">Here are all the emoticons and ways of writing them:<br /> 
+            :-) :) =] =) :-( =( :[ :< ;-) ;) ;] *) :D =D XD BD 8D xD :O =O :-O =-O (6) (A) :'( :'-( :| :o) 8) 8-) (K) :-* (M)<br />
+            They can even be together, no need of whitespaces inbetween: :)(M)
+        </p>
+        <ol class="posted">
+            <li>Bla :)</li>
+            <li>Bla(6) :D</li>
+        </ol>
+        <form>
+            <button type="button" class="posted">Submit (M)=O</button> <br />
+            The following button is an input of type submit, which does not hold any html inside, so even if we says it is of class posted, we are not doing any harm.
+            <input type="submit" value="Hi:)" class="posted" />
+        </form>
+        <h1>Known Bugs</h1>
+        Bug B0001 is caused due to the simple(naive) replacement method.
+        There should be a traversal of the DOM or a regular expression replacement in order to get better results, but that would be rather slow.
+        See the source code to understand the problem.
+        <ul>
+            <li>B0001: Emoticons in text only elements(image alternate text, input button, etc), will be replaced by an ugly html code</li>
+            <p class="posted">This is a text with emoticons :), and an image with alterenate text inside <img src="//static.jquery.com/files/rocker/images/logo_jquery_215x53.gif" alt="No image ;)" />. The end.</p>
+        </ul>
+    </body>
+</html>

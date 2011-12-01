@@ -1,0 +1,178 @@
+.mbbl{
+color:#36C !important;
+}
+.chatbox{
+float:right;
+right:0px;
+bottom:0px;
+position:fixed;
+background:white;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 0;
+bottom: 0;
+margin: 0;
+overflow: visible;
+padding: 0;
+position: fixed;
+right: 0px;
+top:100px;
+width: 212px;
+}
+.roster_list_item {
+padding: 7px 8px 7px 0;
+border-top: 1px solid 
+#EEE;
+}
+.roster_row {
+position: relative;
+background: 
+transparent;
+color: #333;
+font-family: arial,sans-serif;
+border: none;
+margin: 0;
+text-align: left;
+padding: 0;
+width: 100%;
+cursor: pointer;
+overflow: hidden;
+-webkit-appearance: none;
+opacity: 1;
+font: inherit;
+}
+.roster_row > button {
+position: relative;
+border: none;
+margin: 0;
+padding: 0;
+width: 100%;
+overflow: hidden;
+-webkit-appearance: none;
+text-align: left;
+background: 
+transparent;
+cursor: pointer;
+}
+.roster_row > button > img {
+width: 32px;
+height: 32px;
+position: relative;
+top: 0;
+left: 8px;
+}
+.roster_row .bubble {
+position: absolute;
+top: 7px;
+left: 48px;
+}
+.roster_name {
+height: auto;
+white-space: nowrap;
+overflow: hidden;
+padding-left: 0;
+position: absolute;
+top: 6px;
+left: 67px;
+right: 0;
+margin: 0;
+font: 13px arial;
+color: #333;
+text-overflow: ellipsis;
+}
+.roster_row_status {
+position: absolute;
+bottom: 0;
+float:left;
+left: 47px;
+right: 0;
+margin: 0;
+padding: 0;
+font: 11px arial;
+text-overflow: ellipsis;
+color: #888;
+height: auto;
+white-space: nowrap;
+overflow: hidden;
+}
+.roster_buzz {
+font-size: 80%;
+width: 100%;
+cursor: pointer;
+outline: none;
+margin: 0;
+list-style: none;
+padding: 0;
+-moz-user-select: none;
+-webkit-user-select: none;
+border: none;
+}
+.CSS_CHAT_ROSTER {
+font-size: 12pt;
+font-family: arial,sans-serif;
+}
+.me_widget_container {
+padding: 3px 8px 0;
+background-color: 
+#F9F9F9;
+}
+.me_widget_area {
+background: 
+#F9F9F9;
+position: relative;
+width: 100%;
+height: auto;
+overflow: hidden;
+margin: 0;
+padding: 0;
+cursor: pointer;
+}
+.me_entry_status_table {
+margin: 0 0 3px;
+table-layout: fixed;
+overflow: hidden;
+width: 100%;
+}
+.me_entry_status {
+width: auto;
+line-height: 100%;
+overflow: hidden;
+background: 
+transparent;
+outline: none;
+border: none;
+}
+.roster_title_icon_cell {
+height: 13px;
+width: 13px;
+}
+.online-icon{
+background:url('images/icons.png') 0px 127px;
+height: 15px;
+width: 15px;
+}
+.on-icon{
+background:url('images/icons.png') 0px 127px;
+height: 15px;
+width: 15px;
+}
+.off-icon{
+background:url('images/icons.png') 0px 113px;
+margin-left:5px;
+height: 15px;
+width: 15px;
+}
+.me-st {
+position: relative;
+top: -3px;
+left: 1px;
+width: 14px;
+height: 8px;
+-moz-user-select: none;
+-webkit-user-select: none;
+}
+#usscont{
+padding: 3px 8px 0;
+background-color: #F9F9F9;
+}

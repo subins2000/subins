@@ -1,0 +1,66 @@
+#profile {
+position:absolute;
+top:90px;
+left:60px;
+}
+#profile-details {
+left:160px;
+top:45px;
+position:absolute;
+width:200px;
+}
+#p-menu {
+left:50px;
+display:inline-block;
+}
+#p-about {
+width:auto;
+}
+#up_profile {
+left:430px;
+border:2px solid #EEE;
+border-radius:5px;
+}
+.saved,.saveerror {
+background-color:#EEE;
+position:absolute;
+top:50px;
+left:50%;
+border-radius:42px;
+text-align:center;
+border:2px solid #EEE;
+display:none;
+}
+#pointer {
+cursor:pointer;
+}
+.epd:hover{
+background:#EBEFFA;
+cursor:pointer;
+}
+#ped{
+background:#EEE;
+color:black;
+border:2px solid black;
+}
+#p-about tr td{
+padding:10px !important;
+cursor:pointer;
+}
+#load-con{
+width:100%;position:fixed;top:50px;display:none;z-index:999999;
+}
+.epi{background-color: #4D90FE;width:100%;padding-left:12.5%;padding-top:5px;z-index: 16!important;position:fixed;top:30px;left:100px;color:white;display:none;}
+.epi button{top: -2px;position: relative;}
+.zc{border-radius:10px;width:100px;background:#FFF1A8;}
+#usermsgc{border:2px solid #CCC;position:absolute;width:500px;;height:auto;right:400px;top:60px;overflow-y:auto;overflow-x: hidden;height:581px;}
+#userposts{
+position:absolute;
+padding-left:20px;
+right:250px;
+top:0px;
+padding-top:100px;
+width:40%;
+height:auto;
+border-left:2px solid #EEF;
+}

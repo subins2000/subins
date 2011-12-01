@@ -1,0 +1,186 @@
+#ptext {
+float: left;background-color: #EEE;height: 62px;width: 150px;text-align: center;padding-top: 15px;
+}
+#pimg{
+float: left;height: 50px;width: 150px;text-align: center;
+}
+#pholder{
+border: 5px outset #98BF21;
+padding-top:3px;
+padding-left:10px;
+}
+.time{
+text-align:right;
+right: 0;
+margin-top: -10px;
+float:right;
+}
+#contentp {
+margin-left:160px;n
+}
+#up_img {
+width:200px;
+height:200px;
+border: 5px outset #EEE;
+}
+a:-webkit-any-link {
+color:black;
+}
+a:visited {
+color:black;
+}
+#<?php echo $_GET['id']; ?>{
+        display:none;
+        }  
+#imgbox 
+{
+    vertical-align : middle;
+    position : absolute;
+    border: 1px solid #999;
+    background : #FFFFFF; 
+    filter: Alpha(Opacity=100);
+    visibility : hidden;
+    height : 200px;
+    width : 200px;
+    z-index : 50;
+    overflow : hidden;
+    text-align : center;
+}        
+#img_big {
+background-color: black;
+height: 100%;
+max-height: 650px;
+min-height: 500px;
+max-width:700px;
+position: relative;
+text-align: center;
+-webkit-user-select: none;
+float: left;
+}  
+#img_big_right {
+background-color: white;
+height: 100%;
+overflow: hidden;
+position: absolute;
+word-wrap: break-word;
+width: 300px;
+right:0px;
+}     
+#img_big_right_name {
+font-weight: bold;
+position:absolute;
+top:45px;
+padding-left:10px;
+} 
+#img_big_right_img {
+padding-left:10px;
+padding-top:10px;
+}
+#div_share5 {
+background-color: black;
+background-repeat: repeat;
+height: 500px;
+width: 1000px;
+display: none;
+position: fixed;
+color: black;
+z-index: 9999999999999998989;
+padding-top: 0px;
+top: 70px;
+left: 200px;
+position: fixed;
+border-width:2px;
+border-color:white;
+}
+#friendshood {
+background-image:url('../images/logo.gif');
+height: 60px;
+width: 280px;
+left: 40px;
+position: absolute;
+}
+#games {
+background-repeat:no-repeat;
+height: 121px;
+width: 215px;
+left: 360px;
+position: absolute;
+}
+#videos {
+height: 94px;
+width: 150px;
+left: 630px;
+position: absolute;
+}
+#quiz{
+left:879px;
+position: absolute;
+}
+#edusource{
+left:1030px;
+position:absolute;
+}
+audio{
+background-color:black;
+}
+.folderactions{
+background-color:#EEE;
+display:inline-block;
+width:100%;
+position:fixed;
+left:0px;
+top:20px;
+}
+.shadow {
+color:black;
+background: -webkit-gradient(linear,left top,left bottom,from(
+rgba(0, 0, 0, .25)),to(
+transparent));
+background: -moz-linear-gradient(top,
+rgba(0, 0, 0, 0.2),
+transparent);
+height: 6px;
+position: relative;
+z-index: 1;
+-webkit-mask-box-image: -webkit-gradient(linear,left top,right top,color-stop(0.0,rgba(0,0,0,0)),color-stop(0.5,rgba(0,0,0,.8)),color-stop(1.0,rgba(0,0,0,0)));
+}
+#mitem{
+border:2px solid black;
+background:#EE4;
+width:150px;
+height:150px;
+text-align:center;
+}
+#mitem div{
+margin-left:25px;
+margin-top:10px;
+text-align:center;
+}
+div #table{
+white-space: normal;
+line-height: normal;
+font-weight: normal;
+font-size: medium;
+font-variant: normal;
+font-style: normal;
+color: -webkit-text;
+text-align: -webkit-auto;
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+div #tbody{
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+}
+div #tr{
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
+div #td{
+display: table-cell;
+vertical-align: inherit;
+}

@@ -1,0 +1,19 @@
+.nof{
+font-size:40px;
+}.lb{
+border-top:1px solid grey;
+border-bottom:1px solid grey;
+text-align:right;
+width:100%;position:absolute;
+}.lb:hover{
+border-top:1px solid black;
+border-bottom:1px solid black;
+background:white;
+}.lb:active{
+border-top:1px solid black;
+border-bottom:1px solid black;
+background:#CCC;
+text-align:right;
+}.lba{border-left:6px solid blue;width:96%;}#sss{border-top:1px solid grey;
+border-bottom:1px solid grey;
+text-align:right;}
