@@ -1,10 +1,12 @@
-# Subin
+# Subins
 
 This was a project I started building in 2011 to learn programming. Written in PHP, it's a network of sites like Google (and heavily inspired).
 
 At the time I didn't know `git`, so source code was backed up into different folders. It was during my pre-teen age of 11 & 12 when I started writing all these code. So it's pretty bad. It worked but is vulnerable to **SQL Injection** and many other stuff.
 
 [Screenshots & more info at my blog](https://subinsb.com/the-subins-project/#update-2019)
+
+After building Subins, I learnt some of my mistakes and built a better network of sites called [Nokedo in 2013](https://github.com/subins2000/nokedo).
 
 ## Tech
 
